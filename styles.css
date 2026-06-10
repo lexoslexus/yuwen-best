@@ -619,3 +619,5 @@ th {
     grid-template-columns: 1fr;
   }
 }
+
+.hero{background:linear-gradient(90deg,rgba(16,43,99,.72),rgba(41,127,255,.26)),url("images/banner.jpg"),radial-gradient(circle,#e9fbff,#e9fff0);background-size:cover;background-position:center}.hero:before{content:"";position:absolute;left:-15vw;top:52%;width:130vw;height:120px;border-radius:999px;background:linear-gradient(90deg,#ff537e,#ffd35d,#6dea88,#53c8ff,#9c6fff,#ff86d1);opacity:.62;transform:rotate(-8deg)}.login-card,.card,.panel,.stat{border-radius:22px;background:rgba(255,255,255,.9);box-shadow:0 18px 45px rgba(49,94,160,.18)}.primary{border-radius:16px;background:linear-gradient(135deg,#2c87ff,#8b74ff,#ff73b8)}.bar>span{background:linear-gradient(90deg,#ff79b8,#ffcf56,#5fe18b,#55c7ff,#8b74ff)}
