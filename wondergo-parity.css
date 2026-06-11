@@ -1,0 +1,55 @@
+.bar > i {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #ff79b8, #ffcf56, #5fe18b, #55c7ff, #8b74ff);
+  box-shadow: 0 0 14px rgba(85, 199, 255, 0.44);
+}
+
+.resource-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.resource {
+  display: grid;
+  gap: 6px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.resource strong {
+  color: var(--ink);
+}
+
+.level-card {
+  display: grid;
+  gap: 10px;
+  padding: 16px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(44, 135, 255, 0.14), rgba(255, 114, 176, 0.14));
+  border: 1px solid var(--line);
+}
+
+.level-card strong {
+  font-size: 2rem;
+  color: var(--primary);
+}
+
+.badge-wall {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0 18px;
+}
+
+.badge-wall span {
+  padding: 8px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.76);
+  border: 1px solid var(--line);
+  color: var(--ink);
+  font-weight: 700;
+}
